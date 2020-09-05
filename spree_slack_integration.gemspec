@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_slack_integration'
   s.version     = '2.0.4'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Slack integration for Spree and Solidus'
+  s.description = 'Send a notification to slack when new order is beeing processed'
   s.required_ruby_version = '>= 1.9.3'
   s.authors     = ["Nic Wel"]
 
