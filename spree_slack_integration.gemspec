@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.summary     = 'TODO: Add gem summary here'
   s.description = 'TODO: Add (optional) gem description here'
   s.required_ruby_version = '>= 1.9.3'
+  s.authors     = ["Nic Wel"]
 
   s.require_paths = ['lib', 'app/workers']
   s.requirements << 'none'
