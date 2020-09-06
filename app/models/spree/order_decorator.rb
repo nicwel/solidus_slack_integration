@@ -21,7 +21,7 @@ Spree::Order.class_eval do
 
   def render_view(partial, assigns = {})
     view = ActionView::Base.new(ActionController::Base.view_paths, assigns)
-    view.extend ApplicationHelper
+    #view.extend ApplicationHelper
     view.render(:partial => partial)
   end
 
