@@ -19,13 +19,13 @@ Spree::Order.class_eval do
     "#{ENV['SLACK_ADMIN_ORDER_URL']}/#{number}/edit"
   end
 
-  def render_view(partial, assigns = {})
-    view = ActionView::Base.new(ActionController::Base.view_paths, assigns)
-    #view.extend ApplicationHelper
-    view.render(:partial => partial)
-  end
+  #def render_view(partial, assigns = {})
+  #  view = ActionView::Base.new(ActionController::Base.view_paths, assigns)
+  #  view.extend ApplicationHelper
+  #  view.render(:partial => partial)
+  #end
 
-  def slack_notification_message
-    render_view('notification', order: self)
-  end
+  #def slack_notification_message
+  #  render_view('notification', order: self)
+  #end
 end
