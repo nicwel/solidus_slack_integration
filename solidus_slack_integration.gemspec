@@ -1,7 +1,7 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_slack_integration'
+  s.name        = 'solidus_slack_integration'
   s.version     = '2.0.4'
   s.summary     = 'Slack integration for solidus'
   s.description = 'Send a notification to slack when new order is beeing processed'

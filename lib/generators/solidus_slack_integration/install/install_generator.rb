@@ -1,4 +1,4 @@
-module SpreeSlackIntegration
+module SolidusSlackIntegration
   module Generators
     class InstallGenerator < Rails::Generators::Base
 
@@ -13,7 +13,7 @@ module SpreeSlackIntegration
       end
 
       def add_migrations
-        run 'bundle exec rake railties:install:migrations FROM=spree_slack_integration'
+        run 'bundle exec rake railties:install:migrations FROM=solidus_slack_integration'
       end
 
       def run_migrations

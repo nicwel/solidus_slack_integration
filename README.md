@@ -6,17 +6,17 @@ Introduction goes here.
 Installation
 ------------
 
-Add spree_slack_integration to your Gemfile:
+Add solidus_slack_integration to your Gemfile:
 
 ```ruby
-gem 'spree_slack_integration'
+gem 'solidus_slack_integration'
 ```
 
 Bundle your dependencies and run the installation generator:
 
 ```shell
 bundle
-bundle exec rails g spree_slack_integration:install
+bundle exec rails g solidus_slack_integration:install
 ```
 
 Testing
@@ -34,7 +34,7 @@ When testing your applications integration with this extension you may use it's 
 Simply add this require statement to your spec_helper:
 
 ```ruby
-require 'spree_slack_integration/factories'
+require 'solidus_slack_integration/factories'
 ```
 
 Copyright (c) 2014 [name of extension creator], released under the New BSD License
